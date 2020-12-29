@@ -1,0 +1,59 @@
+/* Result page css   */
+.sub-result {
+  background: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 20px;
+}
+.user-icon-circle {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+}
+#test_result h1 {
+  font-size: 3.05rem;
+}
+#test_result > p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#result_zero h1 {
+  font-size: 3.05rem;
+  margin-top: 10rem;
+}
+#result_zero p {
+  font-size: 1.5rem;
+}
+
+#loading {
+  color: #004a80;
+  /* margin-top: 10.9375rem; */
+  margin-top: 80px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  font-weight: bold;
+  padding: 20% 0;
+}
+section > h1 {
+  padding-top: 5rem;
+}
+#test_result h1,
+h2,
+h5 {
+  color: #004a80;
+  font-weight: bold;
+}
+.marginTop {
+  margin-top: 30rem;
+}
+
+/*media queries*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  #loading {
+    z-index: 5;
+    padding: 15% 0;
+    margin-top: 0;
+  }
+}
