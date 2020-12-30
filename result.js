@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     try {
       result = await $.ajax({
-        url: `https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${email}`,
+        url: `https://cors-anywhere.herokuapp.com/https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${email}`,
         type: 'GET',
       });
       $('#loading').hide();
