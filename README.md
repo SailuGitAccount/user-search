@@ -6,9 +6,9 @@
 The application is deployed and hosted in a publicly accessible site https://user-searchbyemail.netlify.app
 
 The API will respond to anyone of these email addresses with valid data, when you search
-### jonsmith@example.com
-### janesmith@example.com
-### doesmith@example.com
+ jonsmith@example.com
+ janesmith@example.com
+ doesmith@example.com
 
 Description:
 Designed two responsive views. One is the email search view with validation and the second view is the result screen, where the results are displayed. 
